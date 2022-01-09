@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="reviewer.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Check out These Products</h1>
+    <section>
+        <div id="productListContainer">
+            <h2>The List of Products</h2>
+            
+
+            <div id="productList">
+                <!-- Card template to clone -->
+
+                <div id="samplecard">
+                    <div class="productHeader">
+                        <div class="productHeader-title">
+                            <h3>Product Name</h3>                            
+                        </div>
+                        <div class="productHeader-rating">
+
+                        </div> 
+                    </div>
+                    <hr />
+                    <h4>Reviews</h4>
+                    <div class="ratingList">
+
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+        </div>
+    </section>
+    
+
+    <section>
+        <!-- React stuff? -->
+    </section>
+
+        <div id="overlay">
+            <div class="formContainer">
+                <h4>Rating</h4>
+                <div class="starsContainer">
+                    <span class="material-icons">star_border</span>
+                    <span class="material-icons">star_border</span>
+                    <span class="material-icons">star_border</span>
+                    <span class="material-icons">star_border</span>
+                    <span class="material-icons">star_border</span>
+                </div>
+                <h4>Review</h4>
+                <input type="text" />
+                <div class="buttons">
+                    <button id="submit" onClick="submit">Submit</button>
+                    <button id="cancel" onClick="cancel">cancel</button>    
+                </div>
+            </div>
+        </div>
+
+
+    <script src="reviewer.js"></script>
+
+
+</body>
+
+
+</html>

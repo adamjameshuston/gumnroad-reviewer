@@ -1,0 +1,85 @@
+body {
+  font-size: 1vw;
+}
+
+#productList {
+  display: flex;
+  flex-direction: row;
+}
+
+#samplecard {
+  display: none;
+  background: white;
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+.card {
+  background: white;
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+.productHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.productHeader-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.productHeader-rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.review {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding: 0.1em;
+  font-size: 0.9em;
+}
+
+.starsContainer {
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+#samplecard > p {
+  font-size: 0.7em;
+}
+
+.yellow {
+  color: gold;
+  -webkit-text-stroke: 1px black;
+}
+
+.add {
+  margin-left: auto;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer {
+  background: white;
+  padding: 3em;
+  max-width: 500px;
+}
